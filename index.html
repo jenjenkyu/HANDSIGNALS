@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HANDSIGNALS BY BALTAZAR & MATABUENA</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel = "icon" href = "image/break.png" type = "image/x-icon">
+          
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+<body>
+  <main>
+    <section class="intro">
+      <div>
+        <div class="asoc">
+          <div class="asoc-img">
+            <img src="image/me2.jpg" alt="matabuenajohnhenricks">
+          </div>
+          <p>JOHN HENRICKS MATABUENA</p>
+        </div>
+        <div class="asoc">
+          <div class="asoc-img">
+            <img src="/image/koolet.jpg" alt="baltazarangelicakoolet">
+          </div>
+          <p>ANGELICA KOOLET BALTAZAR</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="head">
+        <h1>
+          BASKETBALL HANDSIGNALS
+        </h1>
+      </div>
+      <div id="sect" class="content">
+      </div>
+    </section>
+  </main>
+
+  <script>
+    $(document).ready(function(){
+        $.getJSON("data.json", function(data){
+            $.each(data, function(key,value){
+                $('#sect').append(
+                    '<div class="card" id="'+value.id+'"><div><div class="img">'+
+                '<img class="handsignal-img" src="'+value.img+'" alt="'+value.name+'"loading="lazy"></div>'+
+                '<h2>'+value.name+'</h2></div>'+
+                '<div class="type">'+value.type+'</div>'+
+                '<p>'+value.description+'</p>'+'</div></div>'
+                    );
+                $("#"+value.id).animate({
+                    opacity : 1
+                },(500*(key+1)));    
+                
+            });
+        });
+    });
+</script>
+</body>
+</html>

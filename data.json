@@ -1,0 +1,136 @@
+[
+    {
+        "name":"Travelling",
+        "type":"violaltion signals",
+        "id":"01",
+        "description":"When the ball handler takes too many steps without dribbling the ball. This signalis made by a rolling/snipping motion withboth arms.",
+        "img":"image/travelling.png"
+    },
+    {
+        "name":"5 second violation",
+        "type":"violaltion signals",
+        "id":"02",
+        "description":"If the inbounder takes more than five seconds, the referee will stick out five fingers.",
+        "img":"image/5sviolation.png"
+    },
+    {
+        "name":"Double / Illegal dribble",
+        "type":"violaltion signals",
+        "id":"03",
+        "description":"When the ball handler picks up his dribble but then tries to dribble again afterward.",
+        "img":"image/Double.png"
+    },
+    {
+        "name":"10 Second Violation",
+        "type":"violaltion signals",
+        "id":"04",
+        "description":"After a team inbounds the ball, they are given ten seconds to get the past half court.",
+        "img":"image/10sViolation.png"
+    },
+    {
+        "name":"CARRYING / PALMING",
+        "type":"violaltion signals",
+        "id":"05",
+        "description":"When the ball handler either palms the ball or tries to scoop underneath it instead of dribbling correctly.",
+        "img":"image/carrying.png"
+    },
+    {
+        "name":"OVER AND BACK",
+        "type":"violaltion signals",
+        "id":"06",
+        "description":"Once the offensive team crosses the midcourt line, they are not allowed to go back across it. This will result in a loss of possession for the offensive team.",
+        "img":"image/overandback.png"
+    },
+    {
+        "name":"THREE SECOND VIOLATION",
+        "type":"violaltion signals",
+        "id":"07",
+        "description":"If the offensive player stays in the paint for a full three seconds, the play is blown dead and the offense must forfeit possession of the ball.",
+        "img":"image/3sviolation.png"
+    },
+    {
+        "name":"HAND CHECK",
+        "type":"Foul Signals",
+        "id":"08",
+        "description":"When a defender limits an offensive player with his hand. The signal is an open hand in the air while the other hand grabs the wrist.",
+        "img":"image/handcheck.png"
+    },
+    {
+        "name":"CHARGING",
+        "type":"Foul Signals",
+        "id":"09",
+        "description":"When the ball handler runs over a defender who has set his feet and has established position, the referee will call a charging foul.",
+        "img":"image/charging.png"
+    },
+    {
+        "name":"HOLDING",
+        "type":"Foul Signals",
+        "id":"10",
+        "description":"A defender cannot hold an offensive player. If he does, a holding call will be made.",
+        "img":"image/holding.png"
+    },
+    {
+        "name":"INTENTIONAL FOUL",
+        "type":"Foul Signals",
+        "id":"11",
+        "description":"If an official deems that a defensive player fouls an offensive on purpose..",
+        "img":"image/intentional.png"
+    },
+    {
+        "name":"BLOCKING",
+        "type":"Foul Signals",
+        "id":"12",
+        "description":"When a defensive player stands in the way of the ball handler's path to the basket without setting his feet.",
+        "img":"image/blocking.png"
+    },
+    {
+        "name":"PUSHING",
+        "type":"Foul Signals",
+        "id":"13",
+        "description":"Usually called when a loose ball foul occurs. To gain possession one player may push another player out of the way.",
+        "img":"image/pushing.png"
+    },
+    {
+        "name":"TECHNICAL FOUL",
+        "type":"Foul Signals",
+        "id":"14",
+        "description":"Usually issued for unsportsman like conduct.",
+        "img":"image/technical.png"
+    },
+    {
+        "name":"JUMP BALL",
+        "type":"other referee signals",
+        "id":"15",
+        "description":"When opposing players have their handson the ball at the same time, a jump ball is called.",
+        "img":"image/jumpball.png"
+    },
+    {
+        "name":"NO SCORE",
+        "type":"other referee signals",
+        "id":"16",
+        "description":"When the shooter makes a basket but is fouled, the referee must determine if the foul occurred during the act of shooting. If the shooter wasn’t in the act of shooting        the basket doesn’t count",
+        "img":"image/noscore.png"
+    },
+    {
+        "name":"30S TIMEOUT",
+        "type":"other referee signals",
+        "id":"17",
+        "description":"When a team calls a 30-second timeout, the referee lets the scorer’s table to know by both of his hands to his shoulder.",
+        "img":"image/30stimeout.png"
+    },
+    {
+        "name":"3 POINT ATTEMPT",
+        "type":"other referee signals",
+        "id":"18",
+        "description":"To let the scorer's table know that a player has attempted a three-point shot.",
+        "img":"image/3pointattempt.png"
+    },
+    {
+        "name":"3 POINT SCORE",
+        "type":"other referee signals",
+        "id":"19",
+        "description":"When a player hits a three-pointer, thereferee will raise both hands to signal that it was a successful three-point shot.",
+        "img":"image/3points.png"
+    }
+    
+]
